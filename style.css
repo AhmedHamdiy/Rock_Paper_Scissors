@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Protest+Riot&display=swap');
+
+body{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;     
+}
+.choices-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 50%;
+    margin: 0px auto;
+    border-radius: 25px;
+}
+
+h1{
+    font-family: 'Protest Riot', sans-serif;
+    color: burlywood;
+}
+
+
+.winner{
+    color: rosybrown;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+.choice{
+    width:30%;
+    background-color:#eee;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.img{
+    height: 70%;
+    width: 70%;
+    position: relative;
+}
